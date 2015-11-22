@@ -1,0 +1,19 @@
+{
+  "name": "jasmine-node-http-status-code-matcher",
+  "version": "1.0.0",
+  "description": "HTTP status code matcher for jasmine (gives you the textual status as well as the provided number)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimPerry/jasmine-node-http-status-code-matcher"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimPerry/jasmine-node-http-status-code-matcher/issues"
+  },
+  "homepage": "https://github.com/TimPerry/jasmine-node-http-status-code-matcher"
+}
