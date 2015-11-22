@@ -1,6 +1,6 @@
-# 
+# Jasmine HTTP status code matcher
 
-# Setup
+## Setup
 
 Install via npm:
 
@@ -20,7 +20,7 @@ tell jasmine to use the matchers:
 jasmine.addMatchers(customMatchers);
 ```
 
-# Usage
+## Usage
 
 Expect a status code to be a given status code
 
