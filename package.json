@@ -10,7 +10,15 @@
     "type": "git",
     "url": "https://github.com/TimPerry/jasmine-node-http-status-code-matcher"
   },
-  "author": "",
+  "author": "Tim Perry <me@timperry.co.uk>",
+  "keywords": [
+    "jasmine",
+    "node",
+    "http",
+    "status",
+    "code",
+    "matcher"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TimPerry/jasmine-node-http-status-code-matcher/issues"
