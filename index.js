@@ -1,4 +1,4 @@
-var http = require('http');
+var STATUS_CODES = require('./statusCodes.js');
 
 module.exports = {
     toBeStatusCode: function(util, customEqualityTesters) {
@@ -10,12 +10,12 @@ module.exports = {
                 var expectedStatus = '';
                 var actualStatus = '';
 
-                if(parseInt(expected) === expected && http.STATUS_CODES.hasOwnProperty(expected)) {
-                    expectedStatus = ' (' + http.STATUS_CODES[expected] + ')';
+                if(parseInt(expected) === expected && STATUS_CODES.hasOwnProperty(expected)) {
+                    expectedStatus = ' (' + STATUS_CODES[expected] + ')';
                 }
 
-                if(parseInt(actual) === actual && http.STATUS_CODES.hasOwnProperty(actual)) {
-                    actualStatus = ' (' + http.STATUS_CODES[actual] + ')';
+                if(parseInt(actual) === actual && STATUS_CODES.hasOwnProperty(actual)) {
+                    actualStatus = ' (' + STATUS_CODES[actual] + ')';
                 }
 
                 if(result.pass) {

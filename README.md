@@ -5,13 +5,13 @@
 Install via npm:
 
 ```
-npm install --save-dev jasmine-node-http-status-code-matcher
+npm install --save-dev jasmine-http-status-code-matcher
 ```
 
 import in node:
 
 ```
-var customMatchers = require('jasmine-node-http-status-code-matcher');
+var customMatchers = require('jasmine-http-status-code-matcher');
 ```
 
 tell jasmine to use the matchers:
